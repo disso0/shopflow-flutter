@@ -1,40 +1,103 @@
-﻿# ShopFlow — Flutter E-commerce App
+﻿# ShopFlow — Flutter E-commerce Application
 
-A responsive e-commerce application built with Flutter. This project demonstrates modern mobile and web shopping interface development, state management, local data persistence, and basic order processing.
+A responsive e-commerce application built with Flutter and Dart. ShopFlow demonstrates a complete shopping workflow, including product browsing, cart management, checkout, order history, and customer profiles.
 
-## Overview
+**Repository:** [github.com/disso0/shopflow-flutter](https://github.com/disso0/shopflow-flutter)
 
-ShopFlow is a demo online store designed to showcase Flutter development skills and practical e-commerce functionality.
+---
 
-The application includes a product catalog, shopping cart, favorites, checkout flow, customer profile, and order management.
+## Screenshots
+
+### Product Catalog
+
+Browse products, search by name, filter by category and price, and sort the catalog.
+
+![ShopFlow Product Catalog](screenshots/catalog.png)
+
+### Product Details
+
+View product images, descriptions, prices, categories, and availability.
+
+![ShopFlow Product Details](screenshots/product-details.png)
+
+### Shopping Cart
+
+Manage cart items, update quantities, remove products, and calculate the total amount.
+
+![ShopFlow Shopping Cart](screenshots/cart.png)
+
+### Checkout
+
+A multi-step checkout flow with customer contact details, delivery address, and payment method selection.
+
+![Checkout Contact Details](screenshots/checkout-contact.png)
+
+![Checkout Payment Method](screenshots/checkout-payment.png)
+
+### Order History
+
+Search and filter previous orders, view order dates, totals, item counts, and statuses.
+
+![ShopFlow Order History](screenshots/order-history.png)
+
+### Order Details
+
+Review order contents, payment method, customer information, delivery details, and update order status.
+
+![ShopFlow Order Details](screenshots/order-details.png)
+
+### Customer Profile
+
+Edit and save customer information and delivery address.
+
+![ShopFlow Customer Profile](screenshots/profile.png)
+
+---
 
 ## Features
 
-- **Product Catalog** — product cards, categories, and product details.
-- **Search & Filtering** — search products, filter by price and category, and sort results.
-- **Shopping Cart** — add and remove products, change quantities, and calculate totals.
-- **Favorites** — save and remove favorite products.
-- **Checkout** — multi-step demo checkout process.
-- **Order History** — view previous orders, order details, and statuses.
-- **Customer Profile** — edit and save customer information.
-- **Currency Settings** — configurable currency settings.
-- **Theme Support** — light and dark themes.
-- **Responsive UI** — layouts adapted for different screen sizes.
-- **Local Persistence** — save cart, favorites, profile, and orders locally.
+- Product catalog with product cards and detailed product pages.
+- Product search.
+- Category and price filtering.
+- Product sorting.
+- Shopping cart with quantity management.
+- Automatic cart total calculation.
+- Favorites with local persistence.
+- Multi-step checkout process.
+- Customer contact and delivery information.
+- Demonstration payment methods.
+- Order history and order details.
+- Order search and status filtering.
+- Order status management.
+- Customer profile editing.
+- Currency settings.
+- Light and dark themes.
+- Responsive user interface.
+- Local data persistence.
 
 ## Tech Stack
 
-- Flutter
-- Dart
-- Provider — state management
-- GoRouter — navigation
-- SharedPreferences — local data persistence
+| Technology | Purpose |
+|---|---|
+| Flutter | Cross-platform UI development |
+| Dart | Application programming language |
+| Provider | State management |
+| GoRouter | Navigation and routing |
+| SharedPreferences | Local data persistence |
 
-## Testing & Code Quality
+## Architecture
 
-The project includes automated tests for application functionality and business logic.
+The application separates its main responsibilities into several layers:
 
-Latest verification:
+- `data` — models and repositories.
+- `domain` — application state and providers.
+- `presentation` — screens and UI components.
+
+## Testing and Code Quality
+
+The project includes automated tests covering application functionality, repositories, state management, order processing, and data persistence.
+
+Latest verified results:
 
 - `flutter analyze` — no issues found.
 - `flutter test` — 68 tests passed.
@@ -52,8 +115,8 @@ Latest verification:
 Clone the repository:
 
 ```bash
-git clone YOUR_REPOSITORY_URL
-cd my_first_app
+git clone https://github.com/disso0/shopflow-flutter.git
+cd shopflow-flutter
 ```
 
 Install dependencies:
@@ -68,28 +131,36 @@ Run the application in Chrome:
 flutter run -d chrome
 ```
 
-Run tests:
+Run automated tests:
 
 ```bash
 flutter test
 ```
 
-Check code quality:
+Analyze the project:
 
 ```bash
 flutter analyze
 ```
 
-## Demo
+## Demo Payment Notice
 
-Screenshots and a live demo will be added soon.
+ShopFlow is a portfolio demonstration project.
+
+Checkout and payment processing are simulated. No real payment provider is connected, and no real financial transactions are performed.
 
 ## Project Status
 
-This is a portfolio and demonstration project. Checkout and payment processing are simulated; the application is not connected to a real payment provider.
+This project demonstrates Flutter e-commerce UI development, state management, local persistence, and shopping workflow implementation.
+
+The application currently uses local storage and demonstration data. Backend integration and production payment processing are not included.
 
 ## Author
 
+**disso0**
+
 Flutter Developer
+
+[GitHub Profile](https://github.com/disso0)
 
 Open to freelance projects and collaboration.
