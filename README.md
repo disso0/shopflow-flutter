@@ -1,8 +1,10 @@
 ﻿# ShopFlow — Flutter E-commerce Application
 
-A responsive e-commerce application built with Flutter and Dart. ShopFlow demonstrates a complete shopping workflow, including product browsing, cart management, checkout, order history, and customer profiles.
+A responsive e-commerce demo application built with Flutter and Dart. ShopFlow demonstrates a complete shopping experience, including product browsing, search, filtering, cart management, checkout, order history, and customer profiles.
 
-**Repository:** [github.com/disso0/shopflow-flutter](https://github.com/disso0/shopflow-flutter)
+**Live Demo:** https://disso0.github.io/shopflow-flutter/
+
+**GitHub Repository:** https://github.com/disso0/shopflow-flutter
 
 ---
 
@@ -72,14 +74,14 @@ Edit and save customer information and delivery address.
 - Customer profile editing.
 - Currency settings.
 - Light and dark themes.
-- Responsive user interface.
+- Responsive user interface for desktop and mobile screens.
 - Local data persistence.
 
 ## Tech Stack
 
 | Technology | Purpose |
 |---|---|
-| Flutter | Cross-platform UI development |
+| Flutter | UI development |
 | Dart | Application programming language |
 | Provider | State management |
 | GoRouter | Navigation and routing |
@@ -151,7 +153,7 @@ Checkout and payment processing are simulated. No real payment provider is conne
 
 ## Project Status
 
-This project demonstrates Flutter e-commerce UI development, state management, local persistence, and shopping workflow implementation.
+ShopFlow demonstrates Flutter UI development, state management, local persistence, responsive layouts, and e-commerce workflow implementation.
 
 The application currently uses local storage and demonstration data. Backend integration and production payment processing are not included.
 
